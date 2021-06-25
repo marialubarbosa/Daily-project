@@ -6,9 +6,9 @@ Foi desenvolvido com Angular e está integrada a uma API simulada no JSON server
 
 ##Futuras implementações:
 
-# Definição de tempo para as tarefas;
-# Ordenação das tarefas de acordo com o horário;
-# Vinculação de usuários às tarefas;
-# Agrupamento de tarefas à escolha do usuário;
-# Notificão de aviso das tarefas.
+Definição de tempo para as tarefas;
+Ordenação das tarefas de acordo com o horário;
+Vinculação de usuários às tarefas;
+Agrupamento de tarefas à escolha do usuário;
+Notificão de aviso das tarefas.
 

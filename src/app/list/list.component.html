@@ -5,7 +5,7 @@
 
 </div>
 <div class="list-task">
-<div id="card-body{{task.id}}"  class="card" style="width: 18rem;" *ngFor="let task of taskList; let i = index">
+<div id="card-body{{task.id}}"  class="card" [class.alta.h6]="task.prioridade == '1'" [class.media]="task.prioridade == '2'" style="width: 18rem;" *ngFor="let task of taskList; let i = index">
   <div class="card-body">
     <div class="title-task">
       <h5 class="card-title">Tarefa: {{i + 1}}</h5>
@@ -20,6 +20,14 @@
     <h6 class="card-subtitle mb-2 text-muted">Titulo:</h6>
     <div class="form-group">
       <input id="titulo{{task.id}}" class="form-control" [(ngModel)]="task.titulo" type="text">
+    </div>
+    <h6 class="card-subtitle mb-2 text-muted">Prioridade</h6>
+    <div class="form-group">
+      <select class="form-control" [(ngModel)]="task.prioridade">
+        <option value="1">Alta</option>
+        <option value="2">Média</option>
+        <option value="3">Baixa</option>
+      </select>
     </div>
     <h6 class="card-subtitle mb-2 text-muted">Descrição:</h6>
     <div class="form-group">

@@ -3,14 +3,9 @@
     {
       "titulo": "Fazer desafio",
       "descricao": "TO DO LIST",
-      "status": true,
+      "status": false,
+      "prioridade": "1",
       "id": 1
-    },
-    {
-      "titulo": "Anda de Bike",
-      "descricao": "Andar de bike até a praia",
-      "status": true,
-      "id": 2
     },
     {
       "titulo": "Lavar pratos",
@@ -22,7 +17,21 @@
       "titulo": "Trabalhar",
       "descricao": "Migrar a tela da Kia.",
       "status": false,
-      "id": 6
+      "id": 6,
+      "prioridade": "1"
+    },
+    {
+      "titulo": "Almoçar",
+      "descricao": "Encontrar Elisa para almoçar",
+      "status": true,
+      "prioridade": "2",
+      "id": 7
+    },
+    {
+      "titulo": "Mercado",
+      "prioridade": "2",
+      "descricao": "Comprar comida",
+      "id": 8
     }
   ]
 }

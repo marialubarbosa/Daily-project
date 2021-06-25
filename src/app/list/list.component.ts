@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Task } from '../model/task.model';
 import {ListService} from './list.service';
 import Swal from 'sweetalert2/dist/sweetalert2.js'
+import { element } from 'protractor';
 
 
 @Component({
@@ -33,7 +34,6 @@ export class ListComponent implements OnInit {
             setTimeout(() => {
               document.getElementById(`card-body${element.id}`).classList.add('opacityCard');
             }, 100)
-
           }
         });
 

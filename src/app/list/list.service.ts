@@ -26,7 +26,8 @@ endpoint = 'http://localhost:3000/tarefas';
     return this.http.put<Task>(`${this.endpoint}/${task.id}`, {
       'titulo': task.titulo,
       'descricao': task.descricao,
-      'status': !task.status
+      'status': !task.status,
+      'prioridade': task.prioridade
     })
   }
   updateTask (task) :Observable<Task> {

@@ -23,7 +23,6 @@ endpoint = 'http://localhost:3000/tarefas';
   }
 
   updateStatusTask(task: Task): Observable<Task> {
-    console.log(task);
     return this.http.put<Task>(`${this.endpoint}/${task.id}`, {
       'titulo': task.titulo,
       'descricao': task.descricao,
@@ -35,7 +34,6 @@ endpoint = 'http://localhost:3000/tarefas';
   }
 
   deleteTask (task) :Observable<Task> {
-    console.log()
     return this.http.delete<Task>(`${this.endpoint}/${task}`)
 
 

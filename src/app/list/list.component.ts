@@ -30,7 +30,6 @@ export class ListComponent implements OnInit {
 
         this.taskList.forEach((element)  => {
           if(element.status){
-            console.log(`card-body${element.id}`,"maia")
             setTimeout(() => {
               document.getElementById(`card-body${element.id}`).classList.add('opacityCard');
             }, 100)
@@ -118,7 +117,6 @@ export class ListComponent implements OnInit {
       this.getTasks();
       document.getElementById("add").removeAttribute('disabled');
     }else{
-      console.log("ts", task)
       this.listTask.deleteTask(task).toPromise().then((e)=>{
         Swal.fire({
           title: 'Tarefa removida!',

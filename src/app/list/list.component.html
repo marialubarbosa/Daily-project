@@ -12,18 +12,18 @@
       <div class="done-task">
           <h6 class="card-subtitle mb-2 text-muted">Cumprida:</h6>
           <div class="form-group">
-            <input  [(ngModel)]="task.status" type="checkbox" (click)="alterStatus(task)">
+            <input [(ngModel)]="task.status" type="checkbox" (click)="alterStatus(task)">
           </div>
       </div>
     </div>
 
     <h6 class="card-subtitle mb-2 text-muted">Titulo:</h6>
     <div class="form-group">
-      <input class="form-control" [(ngModel)]="task.titulo" type="text">
+      <input id="titulo{{task.id}}" class="form-control" [(ngModel)]="task.titulo" type="text">
     </div>
     <h6 class="card-subtitle mb-2 text-muted">Descrição:</h6>
     <div class="form-group">
-      <textarea class="form-control" [(ngModel)]="task.descricao" rows="3"></textarea>
+      <textarea id="descricao{{task.id}}" class="form-control" [(ngModel)]="task.descricao" rows="3"></textarea>
     </div>
     <button class=" btn add-task card-link" (click)='newTask(task)'*ngIf="!task.id"><i class="fas fa-plus"></i>  Adicionar</button>
     <button class="btn btn-update card-link" (click)='updateTask(task)'*ngIf="task.id && !task.status"><i class="far fa-share-square"></i>Atualizar</button>

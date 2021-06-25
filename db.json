@@ -7,10 +7,10 @@
       "id": 1
     },
     {
-      "status": false,
-      "id": 2,
       "titulo": "Anda de Bike",
-      "descricao": "Andar de bike até a praia"
+      "descricao": "Andar de bike até a praia",
+      "status": true,
+      "id": 2
     },
     {
       "titulo": "Lavar pratos",

@@ -1,0 +1,28 @@
+{
+  "tarefas": [
+    {
+      "titulo": "Fazer desafio",
+      "descricao": "TO DO LIST",
+      "status": true,
+      "id": 1
+    },
+    {
+      "status": false,
+      "id": 2,
+      "titulo": "Anda de Bike",
+      "descricao": "Andar de bike até a praia"
+    },
+    {
+      "titulo": "Lavar pratos",
+      "descricao": "Lavar os pratos do café da manhã",
+      "status": true,
+      "id": 5
+    },
+    {
+      "titulo": "Trabalhar",
+      "descricao": "Migrar a tela da Kia.",
+      "status": false,
+      "id": 6
+    }
+  ]
+}

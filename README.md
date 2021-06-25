@@ -2,17 +2,32 @@
 
 Daily é um sistema de organização de atividades, sendo possível inserir detalhes sobre as tarefas e marcar como cumprida ou não, além da classificação pelo grau de prioridade. Proporciona um formato simples e dinâmico para acompanhar o seu desempenho na execução de tarefas.
 
-Foi desenvolvido com Angular e está integrada a uma API simulada no JSON server. Para ter acesso clone este repositório, instale a dependência com o npm install, inicie o JSON Server com o comando npx json-server --watch db.json e em seguida inicie o projeto a partir do comando ng serve.
+Foi desenvolvido com Angular e está integrada a uma API simulada no JSON server. Para ter acesso clone este repositório, e execute os comandos a seguir:
 
-###Futuras implementações:
+ *Instale a dependência:
+ ~~~javascript
+  npm install 
+  ~~~
+  
+  *Inicie o JSON Server:
+  ~~~javascript
+  npx json-server --watch db.json
+  ~~~ 
+  
+  *Inicie o projeto:
+  ~~~javascript
+  ng serve
+  ~~~
 
-##Definição de tempo para as tarefas;
+### Futuras implementações:
 
-##Ordenação das tarefas de acordo com o horário;
+* Definição de tempo para as tarefas;
 
-##Vinculação de usuários às tarefas;
+* Ordenação das tarefas de acordo com o horário;
 
-##Agrupamento de tarefas à escolha do usuário;
+* Vinculação de usuários às tarefas;
 
-##Notificão de aviso das tarefas.
+* Agrupamento de tarefas à escolha do usuário;
+
+* Notificão de aviso das tarefas.
 
